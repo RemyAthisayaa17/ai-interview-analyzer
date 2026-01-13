@@ -1,0 +1,101 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3e8ff, #ffffff);
+  color: #2c2c2c;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.error-text {
+  color: #ff4d4f;
+  font-weight: 600;
+}
+
+/* BUTTONS */
+.primary-btn {
+  padding: 0.9rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #6c5ce7 0%, #a29bfe 100%);
+  box-shadow: 0 6px 18px rgba(108,92,231,0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(108,92,231,0.5);
+}
+
+/* CAMERA */
+.camera-container {
+  width: 520px;
+  height: 380px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid #d4af37;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* QUESTION CARD */
+.question-card {
+  width: 540px;
+  background-color: #fff;
+  border: 2px solid #d4af37;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.question-number {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6c5ce7;
+  margin-bottom: 0.8rem;
+}
+
+.question-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* PAGES */
+.interview-page,
+.complete-page,
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  min-height: 100vh;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.complete-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #6c5ce7;
+}
+
+.complete-text,
+.landing-subtitle {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
