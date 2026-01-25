@@ -255,10 +255,8 @@ This project is licensed under the MIT License.
 👩‍💻 Author
 
 Remy Athisayaa
+
 GitHub: https://github.com/RemyAthisayaa17
 
 
 
-It matches exactly what Version 2 does
-
-It doesn’t overpromise, and tha
